@@ -9,3 +9,15 @@ body,
   width: 100%;
   height: 100%;
 }
+
+canvas {
+  touch-action: none;
+}
+
+.iframe-container iframe {
+  background: white;
+  width: 1024px;
+  height: 670px;
+  border: none;
+  border-radius: 20px;
+}
